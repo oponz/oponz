@@ -1,19 +1,14 @@
 function d31116()
 
 {
-d3.csv("https://oponz.github.io/oponz/test222.csv", 
 
-	function(data)
-	{
-		console.log(data); 
-	}
 
 
 
 var width = 1024;
 var height = 768;
 var ctrl = d3.select(".footer").append("svg").attr("width", width).attr("height", height);
-d3.csv("./test222.csv", 
+d3.csv("https://oponz.github.io/oponz/test222.csv", 
 	function(data)
 	{
 		var ln = data.length;
